@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body {
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+header {
+    height:10vh;
+    line-height: 10vh;
+    background: #EE4F34;
+    color:white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    background-image: url(../img/git\ logo.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:fixed;
+    top:0;
+    width:100%;
+
+}
+
+header h1 {
+    margin:0;
+    vertical-align: middle;
+}
+
+section {
+ color:#EE4F34;
+ text-align: center;
+ margin:7rem auto 15rem;
+}
+
+h3{
+    font-size: 2rem;
+    margin-top:7vh;
+    text-decoration: underline;
+}
+
+.git, .branch {
+    text-align: center;
+    width:30%;
+    display:inline-block;
+    padding-left: 2rem;
+}
+
+.branch {
+    text-align: center;
+    width:40%;
+    display:inline-block;
+    padding-left: 2rem;
+
+}
+
+.git img, .branch img {
+    width:100%;   
+}
+
+
+.push {
+    text-align: center;
+    width:35%;
+    display:inline-block;
+    padding-left: 2rem;
+}
+
+.push p {
+    font-size: 1rem;
+}
+.push img {
+    width:100%;  
+    height:20vh; 
+}
+
+.merge p {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding:2rem;
+    text-align: left;
+    color:black;
+}
+
+span {
+    font-weight:800;
+    color: #EE4F34
+}
